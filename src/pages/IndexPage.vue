@@ -48,24 +48,25 @@
           </p>
           <div class="row q-gutter-md">
             <q-btn
-              to="/urunler"
+              href="https://www.trendyol.com/magaza/xay-m-1093566?channelId=1&sst=0"
+              target="_blank"
               size="xl"
               rounded
               unelevated
               color="warning"
               text-color="dark"
-              label="2025 Kataloğunu Gör"
-              icon-right="arrow_forward"
+              label="Trendyol'da Alışveriş Yap"
+              icon-right="shopping_cart"
               class="q-px-xl cta-button"
               no-caps
             />
             <q-btn
-              to="/hakkimizda"
+              to="/urunler"
               size="xl"
               rounded
               outline
               color="white"
-              label="Hakkımızda"
+              label="2025 Kataloğunu Gör"
               class="q-px-xl cta-button-outline"
               no-caps
             />
@@ -156,6 +157,44 @@
             <div class="text-h2 text-weight-bold text-xay-yellow stat-number">{{ stat.value }}</div>
             <div class="text-h6 q-mt-sm">{{ stat.label }}</div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trendyol Section -->
+    <section class="trendyol-section q-pa-xl">
+      <div class="row items-center q-col-gutter-xl">
+        <div class="col-12 col-md-6 text-center">
+          <div class="trendyol-logo-container">
+            <q-icon name="shopping_bag" size="120px" color="warning" class="q-mb-md" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="text-h3 text-weight-bold text-primary q-mb-md">
+            Trendyol'da XAY Oyuncak
+          </h2>
+          <p class="text-h6 text-grey-8 q-mb-md">
+            Tüm ürünlerimizi Trendyol üzerinden güvenle satın alabilirsiniz!
+          </p>
+          <p class="text-body1 text-grey-7 q-mb-xl">
+            ✓ Hızlı ve güvenli teslimat<br />
+            ✓ Kolay iade ve değişim<br />
+            ✓ Kampanyalı fiyatlar<br />
+            ✓ Trendyol güvencesi
+          </p>
+          <q-btn
+            href="https://www.trendyol.com/magaza/xay-m-1093566?channelId=1&sst=0"
+            target="_blank"
+            size="xl"
+            rounded
+            unelevated
+            color="warning"
+            text-color="dark"
+            label="Trendyol Mağazamızı Ziyaret Edin"
+            icon-right="open_in_new"
+            class="q-px-xl"
+            no-caps
+          />
         </div>
       </div>
     </section>
@@ -777,6 +816,27 @@ const stats = ref([
 .stat-number {
   text-shadow: 0 0 30px rgba(249, 228, 117, 0.8);
   animation: pulse 2s ease-in-out infinite;
+}
+
+.trendyol-section {
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(249, 228, 117, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+}
+
+.trendyol-logo-container {
+  animation: gentleFloat 6s ease-in-out infinite;
 }
 
 .cta-section {
