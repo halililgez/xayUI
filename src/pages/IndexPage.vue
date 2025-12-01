@@ -61,7 +61,7 @@
         </div>
         <div class="col-12 col-md-5 q-pa-lg hero-image-col">
           <div class="main-logo-display">
-            <img src="/xay-logo.png" alt="XAY Logo" class="hero-main-logo-img" />
+            <img src="~assets/../public/xay-logo.png" alt="XAY Logo" class="hero-main-logo-img" />
           </div>
         </div>
       </div>
