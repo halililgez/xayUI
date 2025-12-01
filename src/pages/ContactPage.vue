@@ -129,8 +129,8 @@
               </div>
               <p class="text-body2 q-ma-none">
                 XAY Oyuncak A.Ş.<br />
-                Fahrettin Altay Mahallesi 65 Sokak No:11/E<br />
-                Karabağlar / İzmir, Türkiye
+                Fahrettin Altay, 65. Sk. NO:11 D:E<br />
+                35140 Karabağlar / İzmir, Türkiye
               </p>
             </q-card>
 
@@ -203,14 +203,14 @@
 
       <q-card flat bordered class="map-card">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.9876544!2d27.1234567!3d38.4123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDI0JzQ0LjQiTiAyN8KwMDcnMjQuNCJF!5e0!3m2!1str!2str!4v1234567890123!5m2!1str!2str"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.4890344831686!2d27.103086476546935!3d38.40791947182773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b963c3c3c3c3c3%3A0x1234567890abcdef!2sXAY%20TOYS!5e0!3m2!1str!2str!4v1733097600000!5m2!1str!2str"
           width="100%"
           height="450"
           style="border:0;"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title="XAY Oyuncak Konum"
+          title="XAY TOYS - Fahrettin Altay, Karabağlar/İzmir"
         ></iframe>
       </q-card>
     </section>
