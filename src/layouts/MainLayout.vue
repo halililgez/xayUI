@@ -4,7 +4,7 @@
       <q-toolbar class="q-px-lg" style="min-height: 80px">
         <!-- Logo -->
         <q-toolbar-title class="row items-center cursor-pointer q-ml-md" @click="$router.push('/')">
-          <img src="~assets/../public/xay-logo.png" alt="XAY Logo" class="xay-logo-img" />
+          <img src="xay-logo.png" alt="XAY Logo" class="xay-logo-img" />
         </q-toolbar-title>
 
         <!-- Desktop Menu -->
