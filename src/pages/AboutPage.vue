@@ -11,7 +11,7 @@
       <div class="row q-col-gutter-xl items-center">
         <div class="col-12 col-md-6">
           <q-img
-            src="https://images.unsplash.com/photo-1560182334-fb4c9e53e5e5?w=800&h=600&fit=crop"
+            src="about-us.png"
             class="rounded-borders shadow-5"
           />
         </div>
