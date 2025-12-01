@@ -10,27 +10,26 @@
     <section class="q-pa-xl bg-white">
       <div class="row q-col-gutter-xl items-center">
         <div class="col-12 col-md-6">
-          <q-img
-            src="about-us.png"
-            class="rounded-borders shadow-5"
-          />
+          <q-img src="about-us.png" class="rounded-borders shadow-5" />
         </div>
         <div class="col-12 col-md-6">
           <h2 class="text-h3 text-weight-bold text-primary q-mb-md">XAY Hikayemiz</h2>
           <p class="text-body1 text-grey-8 q-mb-md">
-            XAY Oyuncak, 2010 yılında oyuncak sektöründe fark yaratmak ve çocukların gelişimine katkı sağlamak 
-            misyonuyla kuruldu. Kuruluşumuzdan bu yana amacımız, çocukların hayal gücünü ve yaratıcılığını 
-            destekleyen, güvenli ve kaliteli oyuncaklar üreterek onların mutluluğuna ortak olmaktır.
+            XAY Oyuncak, 2010 yılında oyuncak sektöründe fark yaratmak ve çocukların gelişimine
+            katkı sağlamak misyonuyla kuruldu. Kuruluşumuzdan bu yana amacımız, çocukların hayal
+            gücünü ve yaratıcılığını destekleyen, güvenli ve kaliteli oyuncaklar üreterek onların
+            mutluluğuna ortak olmaktır.
           </p>
           <p class="text-body1 text-grey-8 q-mb-md">
-            Üretimde kullandığımız tüm malzemeler CE sertifikalı ve uluslararası güvenlik standartlarına 
-            uygun olarak seçilmektedir. Ahşap oyuncaklarımızda doğal ahşap, peluş ürünlerimizde hipoalerjenik 
-            kumaşlar kullanarak çocuklarınızın sağlığını ön planda tutuyoruz.
+            Üretimde kullandığımız tüm malzemeler CE sertifikalı ve uluslararası güvenlik
+            standartlarına uygun olarak seçilmektedir. Ahşap oyuncaklarımızda doğal ahşap, peluş
+            ürünlerimizde hipoalerjenik kumaşlar kullanarak çocuklarınızın sağlığını ön planda
+            tutuyoruz.
           </p>
           <p class="text-body1 text-grey-8">
-            Bugün 6 ana kategoride 500'ü aşkın ürünle, 0-12 yaş arası her yaş grubuna hitap eden oyuncaklar 
-            üretiyoruz. Türkiye genelinde binlerce satış noktasında bulunan ürünlerimizle, milyonlarca çocuğun 
-            gülümsemesine vesile oluyoruz.
+            Bugün 6 ana kategoride 500'ü aşkın ürünle, 0-12 yaş arası her yaş grubuna hitap eden
+            oyuncaklar üretiyoruz. Türkiye genelinde binlerce satış noktasında bulunan
+            ürünlerimizle, milyonlarca çocuğun gülümsemesine vesile oluyoruz.
           </p>
         </div>
       </div>
@@ -46,10 +45,10 @@
               <h3 class="text-h4 text-weight-bold">Misyonumuz</h3>
             </div>
             <p class="text-body1 text-grey-8">
-              Her çocuğun mutlu, sağlıklı ve güvenli oyuncaklarla büyümesini sağlamak. Eğitici, yaratıcı ve 
-              gelişim odaklı oyuncaklar üreterek çocukların motor, bilişsel ve sosyal becerilerini desteklemek. 
-              Aile ile çocuk arasındaki bağı güçlendirecek, kaliteli zaman geçirmelerini sağlayacak oyuncaklar 
-              tasarlamaktır.
+              Her çocuğun mutlu, sağlıklı ve güvenli oyuncaklarla büyümesini sağlamak. Eğitici,
+              yaratıcı ve gelişim odaklı oyuncaklar üreterek çocukların motor, bilişsel ve sosyal
+              becerilerini desteklemek. Aile ile çocuk arasındaki bağı güçlendirecek, kaliteli zaman
+              geçirmelerini sağlayacak oyuncaklar tasarlamaktır.
             </p>
           </q-card>
         </div>
@@ -61,10 +60,10 @@
               <h3 class="text-h4 text-weight-bold">Vizyonumuz</h3>
             </div>
             <p class="text-body1 text-grey-8">
-              Türkiye'nin ve dünya çapında tanınan, çocukların en sevdiği ve ailelerin en çok güvendiği oyuncak 
-              markası olmak. Sürdürülebilir, çevre dostu üretim anlayışıyla sektöre öncülük ederek, geleceğin 
-              oyuncak dünyasını şekillendirmek. İnovasyon ve kalitede sınırları zorlamak, her çocuğun hayal 
-              dünyasına ilham vermektir.
+              Türkiye'nin ve dünya çapında tanınan, çocukların en sevdiği ve ailelerin en çok
+              güvendiği oyuncak markası olmak. Sürdürülebilir, çevre dostu üretim anlayışıyla
+              sektöre öncülük ederek, geleceğin oyuncak dünyasını şekillendirmek. İnovasyon ve
+              kalitede sınırları zorlamak, her çocuğun hayal dünyasına ilham vermektir.
             </p>
           </q-card>
         </div>
@@ -97,7 +96,12 @@
       </div>
 
       <div class="timeline-container">
-        <div v-for="(milestone, index) in timeline" :key="index" class="timeline-item" :class="{ reverse: index % 2 }">
+        <div
+          v-for="(milestone, index) in timeline"
+          :key="index"
+          class="timeline-item"
+          :class="{ reverse: index % 2 }"
+        >
           <q-card flat bordered class="timeline-card q-pa-lg">
             <div class="text-h4 text-weight-bold text-primary q-mb-sm">{{ milestone.year }}</div>
             <h5 class="text-h6 text-weight-bold q-mb-sm">{{ milestone.title }}</h5>
@@ -147,7 +151,8 @@ import { ref } from 'vue'
 const values = ref([
   {
     title: 'Güvenlik',
-    description: 'Çocukların güvenliği her zaman önceliğimizdir. Tüm ürünlerimiz uluslararası standartlara uygundur.',
+    description:
+      'Çocukların güvenliği her zaman önceliğimizdir. Tüm ürünlerimiz uluslararası standartlara uygundur.',
     icon: 'shield',
     color: 'positive',
   },
@@ -159,7 +164,8 @@ const values = ref([
   },
   {
     title: 'İnovasyon',
-    description: 'Sürekli araştırma ve geliştirme ile çağın gereksinimlerine uygun oyuncaklar tasarlıyoruz.',
+    description:
+      'Sürekli araştırma ve geliştirme ile çağın gereksinimlerine uygun oyuncaklar tasarlıyoruz.',
     icon: 'lightbulb',
     color: 'info',
   },
@@ -171,7 +177,8 @@ const values = ref([
   },
   {
     title: 'Eğitim',
-    description: 'Oyuncaklarımız eğlence ile öğrenmeyi birleştirerek çocukların gelişimine katkı sağlar.',
+    description:
+      'Oyuncaklarımız eğlence ile öğrenmeyi birleştirerek çocukların gelişimine katkı sağlar.',
     icon: 'school',
     color: 'primary',
   },
@@ -335,6 +342,10 @@ const certifications = ref([
 }
 
 .team-cta {
-  background: linear-gradient(135deg, $secondary 0%, color-mix(in srgb, $secondary 90%, black) 100%);
+  background: linear-gradient(
+    135deg,
+    $secondary 0%,
+    color-mix(in srgb, $secondary 90%, black) 100%
+  );
 }
 </style>

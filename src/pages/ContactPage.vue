@@ -14,8 +14,8 @@
           <q-card flat bordered class="contact-form-card q-pa-xl">
             <h3 class="text-h4 text-weight-bold text-primary q-mb-md">Bize Ulaşın</h3>
             <p class="text-body1 text-grey-7 q-mb-lg">
-              Sorularınız, önerileriniz veya işbirliği talepleriniz için formu doldurun, size en kısa sürede dönüş
-              yapalım.
+              Sorularınız, önerileriniz veya işbirliği talepleriniz için formu doldurun, size en
+              kısa sürede dönüş yapalım.
             </p>
 
             <q-form @submit="onSubmit" class="q-gutter-md">
@@ -79,7 +79,8 @@
 
               <q-toggle v-model="form.consent" class="q-mb-md">
                 <span class="text-caption">
-                  <a href="#" class="text-primary">KVKK Aydınlatma Metni</a>'ni okudum ve kabul ediyorum. *
+                  <a href="#" class="text-primary">KVKK Aydınlatma Metni</a>'ni okudum ve kabul
+                  ediyorum. *
                 </span>
               </q-toggle>
 
@@ -183,10 +184,34 @@
             <q-card flat bordered class="contact-info-card q-pa-lg text-center">
               <div class="text-h6 text-weight-bold q-mb-md">Sosyal Medya</div>
               <div class="row justify-center q-gutter-md">
-                <q-btn round size="lg" color="primary" icon="facebook" @click="openSocialMedia('facebook')" />
-                <q-btn round size="lg" color="info" icon="twitter" @click="openSocialMedia('twitter')" />
-                <q-btn round size="lg" color="secondary" icon="facebook" @click="openSocialMedia('instagram')" />
-                <q-btn round size="lg" color="negative" icon="play_arrow" @click="openSocialMedia('youtube')" />
+                <q-btn
+                  round
+                  size="lg"
+                  color="primary"
+                  icon="facebook"
+                  @click="openSocialMedia('facebook')"
+                />
+                <q-btn
+                  round
+                  size="lg"
+                  color="info"
+                  icon="twitter"
+                  @click="openSocialMedia('twitter')"
+                />
+                <q-btn
+                  round
+                  size="lg"
+                  color="secondary"
+                  icon="facebook"
+                  @click="openSocialMedia('instagram')"
+                />
+                <q-btn
+                  round
+                  size="lg"
+                  color="negative"
+                  icon="play_arrow"
+                  @click="openSocialMedia('youtube')"
+                />
               </div>
             </q-card>
           </div>
@@ -198,12 +223,14 @@
     <section class="q-pa-xl bg-grey-2">
       <div class="text-center q-mb-lg">
         <h3 class="text-h4 text-weight-bold text-primary q-mb-md">Bizi Ziyaret Edin</h3>
-        <p class="text-body1 text-grey-7">Showroom'umuza gelerek ürünlerimizi yerinde inceleyebilirsiniz</p>
+        <p class="text-body1 text-grey-7">
+          Showroom'umuza gelerek ürünlerimizi yerinde inceleyebilirsiniz
+        </p>
       </div>
 
       <q-card flat bordered class="map-card">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.4890344831686!2d27.103086476546935!3d38.40791947182773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b963c3c3c3c3c3%3A0x1234567890abcdef!2sXAY%20TOYS!5e0!3m2!1str!2str!4v1733097600000!5m2!1str!2str"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d657.3770085514003!2d27.06698759963218!3d38.39456318027313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbddc8969d697d%3A0xc1ab5d3f04862864!2sXAY%20TOYS!5e0!3m2!1str!2str!4v1764589432592!5m2!1str!2str"
           width="100%"
           height="450"
           style="border:0;"
@@ -295,7 +322,7 @@ const faqs = ref([
     icon: 'store',
     question: 'Nereden satın alabilirim?',
     answer:
-      'Ürünlerimizi tüm Türkiye\'deki büyük oyuncak mağazalarında, marketlerde ve online satış platformlarında bulabilirsiniz. Distribütör listesi için bizimle iletişime geçebilirsiniz.',
+      "Ürünlerimizi tüm Türkiye'deki büyük oyuncak mağazalarında, marketlerde ve online satış platformlarında bulabilirsiniz. Distribütör listesi için bizimle iletişime geçebilirsiniz.",
   },
   {
     icon: 'autorenew',

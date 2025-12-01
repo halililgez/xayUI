@@ -38,14 +38,31 @@
       <div class="drawer-header q-pa-lg">
         <div class="xay-logo-svg-drawer">
           <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z" 
-                  fill="#C488D8" stroke="#9B6BB0" stroke-width="1.5"/>
-            <path d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z" 
-                  fill="#F9E475" stroke="#E5C842" stroke-width="1.5"/>
-            <path d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z" 
-                  fill="#87CEEB" stroke="#5BA8C8" stroke-width="1.5"/>
-            <path d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z" 
-                  fill="#C488D8" stroke="#9B6BB0" stroke-width="2" fill-opacity="0.8"/>
+            <path
+              d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z"
+              fill="#C488D8"
+              stroke="#9B6BB0"
+              stroke-width="1.5"
+            />
+            <path
+              d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z"
+              fill="#F9E475"
+              stroke="#E5C842"
+              stroke-width="1.5"
+            />
+            <path
+              d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z"
+              fill="#87CEEB"
+              stroke="#5BA8C8"
+              stroke-width="1.5"
+            />
+            <path
+              d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z"
+              fill="#C488D8"
+              stroke="#9B6BB0"
+              stroke-width="2"
+              fill-opacity="0.8"
+            />
           </svg>
         </div>
         <div class="text-h5 text-weight-bold text-primary q-mt-sm">XAY</div>
@@ -83,7 +100,9 @@
           <!-- Logo & Description -->
           <div class="col-12 col-md-4 q-mb-sm">
             <div class="text-h6 text-weight-bold">XAY</div>
-            <p class="text-caption q-ma-none text-grey-5">Oyuncak dünyasında hayal gücünü gerçeğe dönüştüren lider marka</p>
+            <p class="text-caption q-ma-none text-grey-5">
+              Oyuncak dünyasında hayal gücünü gerçeğe dönüştüren lider marka
+            </p>
           </div>
 
           <!-- Quick Links -->

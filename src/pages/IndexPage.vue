@@ -3,19 +3,31 @@
     <!-- Hero Section -->
     <section class="hero-section relative-position overflow-hidden">
       <div class="hero-overlay"></div>
-      
+
       <!-- Animated XAY Logos Background -->
       <div class="logo-background">
         <div v-for="i in 6" :key="i" class="floating-logo" :class="`logo-${i}`">
           <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
-            <path d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z" 
-                  fill="#C488D8" opacity="0.6"/>
-            <path d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z" 
-                  fill="#F9E475" opacity="0.6"/>
-            <path d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z" 
-                  fill="#87CEEB" opacity="0.6"/>
-            <path d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z" 
-                  fill="#C488D8" opacity="0.5"/>
+            <path
+              d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z"
+              fill="#C488D8"
+              opacity="0.6"
+            />
+            <path
+              d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z"
+              fill="#F9E475"
+              opacity="0.6"
+            />
+            <path
+              d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z"
+              fill="#87CEEB"
+              opacity="0.6"
+            />
+            <path
+              d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z"
+              fill="#C488D8"
+              opacity="0.5"
+            />
           </svg>
         </div>
       </div>
@@ -65,7 +77,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Animated background shapes -->
       <div class="hero-shape shape-1"></div>
       <div class="hero-shape shape-2"></div>
@@ -89,8 +101,16 @@
       </div>
 
       <div class="row q-col-gutter-xl justify-center">
-        <div v-for="(feature, index) in features" :key="feature.title" class="col-12 col-sm-6 col-md-3">
-          <q-card flat class="feature-card full-height text-center" :style="{ animationDelay: `${index * 0.1}s` }">
+        <div
+          v-for="(feature, index) in features"
+          :key="feature.title"
+          class="col-12 col-sm-6 col-md-3"
+        >
+          <q-card
+            flat
+            class="feature-card full-height text-center"
+            :style="{ animationDelay: `${index * 0.1}s` }"
+          >
             <q-card-section class="q-pt-xl q-pb-lg">
               <div class="feature-icon-wrapper q-mb-lg">
                 <q-icon :name="feature.icon" :color="feature.color" size="56px" />
@@ -108,14 +128,26 @@
       <!-- Background Logo Watermark -->
       <div class="stats-logo-bg">
         <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-          <path d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z" 
-                fill="white" opacity="0.05"/>
-          <path d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z" 
-                fill="white" opacity="0.05"/>
-          <path d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z" 
-                fill="white" opacity="0.05"/>
-          <path d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z" 
-                fill="white" opacity="0.05"/>
+          <path
+            d="M15,25 Q10,20 15,15 L25,5 Q30,0 35,5 L45,15 Q50,20 45,25 L40,30 L55,45 Q60,50 55,55 Q50,60 45,55 L30,40 L15,55 Q10,60 5,55 Q0,50 5,45 L20,30 L15,25 Z"
+            fill="white"
+            opacity="0.05"
+          />
+          <path
+            d="M70,15 Q75,5 85,5 Q95,5 100,15 L115,55 Q118,65 108,65 Q103,65 100,55 L98,45 L72,45 L70,55 Q67,65 57,65 Q47,65 50,55 L70,15 Z M75,35 L95,35 L85,15 Z"
+            fill="white"
+            opacity="0.05"
+          />
+          <path
+            d="M125,15 Q130,5 140,10 L155,30 L170,10 Q175,5 185,15 Q190,20 185,25 L165,50 L165,60 Q165,70 155,70 Q145,70 145,60 L145,50 L125,25 Q120,20 125,15 Z"
+            fill="white"
+            opacity="0.05"
+          />
+          <path
+            d="M20,80 Q15,75 20,70 Q60,75 100,70 Q180,75 180,70 Q185,75 180,80 Q100,110 20,80 Z"
+            fill="white"
+            opacity="0.05"
+          />
         </svg>
       </div>
       <div class="row q-col-gutter-lg text-center relative-position" style="z-index: 2">
@@ -133,7 +165,9 @@
       <div class="row justify-center">
         <div class="col-12 col-md-8">
           <h2 class="text-h3 text-weight-bold text-white q-mb-md">Bizimle İletişime Geçin</h2>
-          <p class="text-h6 text-white q-mb-xl">Ürünlerimiz hakkında daha fazla bilgi almak ister misiniz?</p>
+          <p class="text-h6 text-white q-mb-xl">
+            Ürünlerimiz hakkında daha fazla bilgi almak ister misiniz?
+          </p>
           <q-btn
             to="/iletisim"
             size="lg"
@@ -205,7 +239,7 @@ const stats = ref([
 // Hero Section - Modern Design
 .hero-section {
   min-height: 90vh;
-  background: linear-gradient(135deg, #8B5FA8 0%, #C488D8 50%, #F58F8F 100%);
+  background: linear-gradient(135deg, #8b5fa8 0%, #c488d8 50%, #f58f8f 100%);
   position: relative;
   padding-top: 80px;
   overflow: hidden;
@@ -216,7 +250,8 @@ const stats = ref([
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(135, 206, 235, 0.3), transparent 50%),
+    background:
+      radial-gradient(circle at 20% 50%, rgba(135, 206, 235, 0.3), transparent 50%),
       radial-gradient(circle at 80% 80%, rgba(249, 228, 117, 0.2), transparent 50%),
       radial-gradient(circle at 50% 20%, rgba(196, 136, 216, 0.2), transparent 50%);
     z-index: 1;
@@ -246,7 +281,7 @@ const stats = ref([
   position: absolute;
   opacity: 0.15;
   filter: blur(2px);
-  
+
   .logo-svg {
     width: 150px;
     height: auto;
@@ -325,7 +360,9 @@ const stats = ref([
   width: 400px;
   height: auto;
   filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.3));
-  animation: gentleFloat 6s ease-in-out infinite, pulseGlow 3s ease-in-out infinite;
+  animation:
+    gentleFloat 6s ease-in-out infinite,
+    pulseGlow 3s ease-in-out infinite;
 
   @media (max-width: 768px) {
     width: 280px;
@@ -344,7 +381,11 @@ const stats = ref([
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, $xay-yellow 0%, color-mix(in srgb, $xay-yellow 85%, white) 100%);
+  background: linear-gradient(
+    135deg,
+    $xay-yellow 0%,
+    color-mix(in srgb, $xay-yellow 85%, white) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -599,7 +640,8 @@ const stats = ref([
 }
 
 @keyframes floatLogo1 {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg) scale(1);
   }
   25% {
@@ -614,7 +656,8 @@ const stats = ref([
 }
 
 @keyframes floatLogo2 {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg) scale(1);
   }
   33% {
@@ -626,7 +669,8 @@ const stats = ref([
 }
 
 @keyframes floatLogo3 {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg) scale(1);
   }
   20% {
@@ -644,7 +688,8 @@ const stats = ref([
 }
 
 @keyframes gentleFloat {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
   50% {
@@ -653,7 +698,8 @@ const stats = ref([
 }
 
 @keyframes pulseGlow {
-  0%, 100% {
+  0%,
+  100% {
     filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.3));
   }
   50% {
@@ -682,7 +728,8 @@ const stats = ref([
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
